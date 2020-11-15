@@ -1,0 +1,54 @@
+.NavBar {
+   background-color: black;
+   display: grid;
+   grid-template-columns: 1fr 3fr 1fr;
+   grid-column-gap: 35px;
+}
+
+.header {
+   display: grid;
+}
+
+.header img {
+   width: 250px;
+}
+
+.links {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-column-gap: 10px;
+   padding-left: 10px;
+   align-items: center;
+}
+
+.links p {
+   color: white;
+   font-size: 1rem;
+}
+
+.center {
+   text-align: center;
+}
+
+.cart img{
+   width: 25px;
+   align-items: center;
+}
+
+.end {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin-top: 15px;
+   align-items: center;
+   padding-left: 10px;
+}
+
+.three {
+   width: 25px;
+}
+
+.hamburger {
+   height: 3px;
+   background-color: white;
+   border: 2px solid black;
+}

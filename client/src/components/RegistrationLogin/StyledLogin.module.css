@@ -21,6 +21,8 @@
    display: block;
    background-color: white;
    border-radius: 10px; 
+   /* border: 2px solid black; */
+   box-shadow: 10px 17px 30px -2px #545454;
 }
 
 .loginBox h2 {

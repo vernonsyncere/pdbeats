@@ -40,6 +40,7 @@ const NavBar = (props) => {
             <div className={classes.hamburger}></div>
             </div>
          </div>
+         
       </div>
    )
 }

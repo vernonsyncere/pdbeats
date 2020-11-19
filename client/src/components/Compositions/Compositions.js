@@ -28,7 +28,7 @@ const [state, setState] = useState([
    {
       image: "https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK.png",
       words: "Here I am, the title lets see how everything goes when theres a lot of text woeking here",
-      price: "15,000,000",
+      price: "12.99",
       sale: "1.99"
    },
    {
@@ -52,7 +52,7 @@ const [state, setState] = useState([
    {
       image: "https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK.png",
       words: "Here I am, the title lets see how everything goes when theres a lot of text woeking here",
-      price: "15,000,000",
+      price: "12.99",
       sale: "1.99"
    },
    {
@@ -77,7 +77,7 @@ return(
                <p className={classes.titleDescript}>{el.words}</p>
                <div className={classes.price}>
                   <p><span>${el.price}</span></p>
-                  <p className={classes.sale}>Sale: ${el.sale}</p>
+                  <p className={classes.sale}>${el.sale} Sale</p>
                </div>
                
             </div>
@@ -88,7 +88,7 @@ return(
          <div></div>
       </div>
       <div className={classes.button}>
-         <button>See All</button>   
+         <button>View All</button>   
       </div>
       
      

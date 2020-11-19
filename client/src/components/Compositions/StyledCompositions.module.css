@@ -4,7 +4,7 @@
 }
 
 .Compositions{
-   margin-top: 250px;
+   margin-top: 150px;
 }
 
 .compContainer {
@@ -12,14 +12,6 @@
    grid-template-columns: 1fr 60% 1fr; 
 }
 
-.compBox {
-   /* width: 75%;
-   margin: auto; */
-   /* outline: 1px solid green; */
-   /* min-height: 550px; */
-   /* background-color: white;
-   z-index: 1; */
-}
 
 .headline {
    text-align: center;
@@ -52,7 +44,7 @@
 
 .price {
    display:grid;
-   grid-template-columns: 1fr 1fr;
+   grid-template-columns: 1fr 1.5fr;
    margin-top: 15px;
 }
 
@@ -60,10 +52,20 @@
    text-decoration: line-through;
 }
 
-.sale {
+/* .sale {
    grid-column-end: end;
-}
+} */
 
 .button {
- text-align: center;
+   margin-top: 75px;
+   text-align: center;
+}
+
+.button button {
+   font-size: 1rem;
+   padding: .25rem 1rem;
+   background-color: grey;
+   color: white;
+   border:0;
+   margin-bottom: 20px;
 }

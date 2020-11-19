@@ -35,9 +35,9 @@ const NavBar = (props) => {
                <img src ={Cart}/>
             </div>
             <div className={classes.three}>
-            <div className={classes.hamburger}></div>
-            <div className={classes.hamburger}></div>
-            <div className={classes.hamburger}></div>
+               <div className={classes.hamburger}></div>
+               <div className={classes.hamburger}></div>
+               <div className={classes.hamburger}></div>
             </div>
          </div>
          

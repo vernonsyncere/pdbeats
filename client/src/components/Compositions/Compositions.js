@@ -66,8 +66,8 @@ const [state, setState] = useState([
 
 return(
    <div className={classes.Compositions}>
-      <div className={classes.compContainer}>
-         <div></div>
+      {/* <div className={classes.compContainer}> */}
+         {/* <div></div> */}
          <div className={classes.compBox}>
             <p className={classes.headline}>Newest Releases</p>
             <div className={classes.container}>
@@ -85,8 +85,8 @@ return(
             </div>
             
          </div>
-         <div></div>
-      </div>
+         {/* <div></div> */}
+      {/* </div> */}
       <div className={classes.button}>
          <button>View All</button>   
       </div>

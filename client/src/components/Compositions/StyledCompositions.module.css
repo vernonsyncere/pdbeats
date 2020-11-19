@@ -4,12 +4,19 @@
 }
 
 .Compositions{
-   margin-top: 150px;
+   margin-top: 200px;
+   max-width: 100%;
 }
 
-.compContainer {
+/* .compContainer {
    display: grid;
    grid-template-columns: 1fr 60% 1fr; 
+} */
+
+.compBox {
+   width: 65%;
+   max-width: 65%;
+   margin: auto;
 }
 
 
@@ -24,11 +31,13 @@
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
    grid-gap: 1em;
-   padding:0 1em 0 1em
+   padding:0 1em 0 1em;
+   max-width: 100%;
 }
 
 .compo {
    margin-top: 50px;
+   max-width: 100%;
 }
 
 .compo img {
@@ -66,6 +75,28 @@
    padding: .25rem 1rem;
    background-color: grey;
    color: white;
-   border:0;
+   border:1px solid white;
+   border-radius: 3px;
    margin-bottom: 20px;
+}
+
+@media(max-width: 870px){
+   .price {
+      grid-template-columns: 1fr;
+   }
+
+}
+
+@media(max-width: 560px){
+   .container {
+      grid-template-columns: 1fr 1fr;
+   }
+
+}
+
+@media(max-width: 270px){
+   .container {
+      grid-template-columns: 1fr;
+   }
+
 }

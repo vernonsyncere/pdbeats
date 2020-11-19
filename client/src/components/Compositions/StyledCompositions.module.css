@@ -3,15 +3,28 @@
    padding: 0;
 }
 
+.Compositions{
+   margin-top: 250px;
+}
+
+.compContainer {
+   display: grid;
+   grid-template-columns: 1fr 60% 1fr; 
+}
+
 .compBox {
-   width: 50%;
-   margin: auto;
+   /* width: 75%;
+   margin: auto; */
    /* outline: 1px solid green; */
    /* min-height: 550px; */
+   /* background-color: white;
+   z-index: 1; */
 }
 
 .headline {
    text-align: center;
+   font-size: 2em;
+   font-weight: 700;
    margin-top: 50px;
 }
 
@@ -29,11 +42,18 @@
 .compo img {
    width: 100%;
    max-width: 100%;
+   
+}
+
+.titleDescript{
+   max-width: 100%;
+   margin-top: 15px;
 }
 
 .price {
    display:grid;
    grid-template-columns: 1fr 1fr;
+   margin-top: 15px;
 }
 
 .price span{
@@ -45,7 +65,5 @@
 }
 
 .button {
-  
-   padding: .5em 1em;
-   
+ text-align: center;
 }

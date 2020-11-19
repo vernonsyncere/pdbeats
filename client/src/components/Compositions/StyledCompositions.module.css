@@ -1,0 +1,51 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.compBox {
+   width: 50%;
+   margin: auto;
+   /* outline: 1px solid green; */
+   /* min-height: 550px; */
+}
+
+.headline {
+   text-align: center;
+   margin-top: 50px;
+}
+
+.container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap: 1em;
+   padding:0 1em 0 1em
+}
+
+.compo {
+   margin-top: 50px;
+}
+
+.compo img {
+   width: 100%;
+   max-width: 100%;
+}
+
+.price {
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.price span{
+   text-decoration: line-through;
+}
+
+.sale {
+   grid-column-end: end;
+}
+
+.button {
+  
+   padding: .5em 1em;
+   
+}

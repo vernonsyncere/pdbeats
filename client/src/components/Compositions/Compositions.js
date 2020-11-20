@@ -77,7 +77,7 @@ return(
                <p className={classes.titleDescript}>{el.words}</p>
                <div className={classes.price}>
                   <p><span>${el.price}</span></p>
-                  <p className={classes.sale}>${el.sale} Sale</p>
+                  <p className={classes.sale}>${el.sale}  <span>  Sale</span></p>
                </div>
                
             </div>

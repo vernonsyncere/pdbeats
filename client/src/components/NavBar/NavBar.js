@@ -12,22 +12,22 @@ const NavBar = (props) => {
          </div>
          <div className={classes.links}>
             <div>
-               <p>Beats</p>
+               <p>Compositions</p>
             </div>
             <div>
-               <p>Compositions</p>
+               <p className={classes.center}>Beats</p>
             </div>
             <div>
                <p className={classes.center}>Bio</p>
             </div>
             <div>
-               <p>Merch</p>
+               <p className={classes.center}>Merch</p>
             </div>
             <div>
-               <p>Sign-in</p>
+               <p className={classes.center}>Sign-in</p>
             </div>
             <div>
-               <p>Register</p>
+               <p className={classes.center}>Register</p>
             </div>
          </div>
          <div className={classes.end}>

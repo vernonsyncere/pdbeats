@@ -10,7 +10,7 @@ const Registration = (props) => {
                <div className={classes.titles}>
                   <h2>Login</h2>
                </div>
-               <div className={classes.titles}>
+               <div className={classes.second}>
                   <h2>Register</h2>
                </div>
             </div>

@@ -12,23 +12,23 @@ const NavBar = (props) => {
          </div>
          <div className={classes.links}>
             <div>
-               <p>Compositions</p>
+               <p className={classes.center}>Compositions</p>
             </div>
             <div>
                <p className={classes.center}>Beats</p>
             </div>
-            <div>
+            {/* <div>
                <p className={classes.center}>Bio</p>
-            </div>
+            </div> */}
             <div>
                <p className={classes.center}>Merch</p>
             </div>
             <div>
-               <p className={classes.center}>Sign-in</p>
+               <p className={classes.center}>My Account</p>
             </div>
-            <div>
+            {/* <div>
                <p className={classes.center}>Register</p>
-            </div>
+            </div> */}
          </div>
          <div className={classes.end}>
             <div className={classes.cart}>

@@ -15,8 +15,7 @@ const App = (props) => {
   return (
     <div className="App">
       <NavBar/>
-        <Compositions/>
-      
+        {/* <Compositions/> */}
         {/* <BeatStore/> */}
         {/* <Login/> */}
       {/* <Registration/> */}

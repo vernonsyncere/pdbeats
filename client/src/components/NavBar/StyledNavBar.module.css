@@ -19,7 +19,7 @@
 
 .links {
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
    padding-left: 10px;
    align-items: center;
 }
@@ -67,7 +67,7 @@
 
    .links {
       display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
    }
  
    .end {

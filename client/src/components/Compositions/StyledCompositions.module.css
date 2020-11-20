@@ -37,7 +37,7 @@
 .compo img {
   width: 85%;
   max-width: 100%;
-  box-shadow: 6px 4px 4px 1px #000000;
+  box-shadow: 3px 4px 4px 1px #444444;
 }
 
 .titleDescript {

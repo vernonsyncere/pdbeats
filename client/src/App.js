@@ -17,7 +17,7 @@ const App = (props) => {
       <NavBar/>
         <Compositions/>
       
-        {/* <BeatStore/> */}
+        <BeatStore/>
         {/* <Login/> */}
       {/* <Registration/> */}
       

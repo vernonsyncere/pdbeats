@@ -18,7 +18,7 @@ const App = (props) => {
         {/* <Compositions/> */}
         {/* <BeatStore/> */}
         {/* <Login/> */}
-      {/* <Registration/> */}
+      <Registration/>
       
     </div>
   );

@@ -1,8 +1,8 @@
 import React from 'react'
 
 import './App.css';
-import Registration from './components/RegistrationLogin/Registration'
-import Login from './components/RegistrationLogin/Login'
+import RegistrationLogin from './components/RegistrationLogin/RegistrationLogin'
+
 import NavBar from './components/NavBar/NavBar';
 import BeatStore from './components/BeatStore/BeatStore';
 import Compositions from './components/Compositions/Compositions';
@@ -18,7 +18,7 @@ const App = (props) => {
         {/* <Compositions/> */}
         {/* <BeatStore/> */}
         {/* <Login/> */}
-      <Registration/>
+      <RegistrationLogin/>
       
     </div>
   );

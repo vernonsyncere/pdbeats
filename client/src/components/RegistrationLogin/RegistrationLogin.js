@@ -1,6 +1,6 @@
 import React from 'react';
 
-import classes from './StyledRegistration.module.css';
+import classes from './StyledRegistrationLogin.module.css';
 
 const Registration = (props) => {
    

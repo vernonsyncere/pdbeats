@@ -11,21 +11,22 @@ const Registration = (props) => {
       textDecoration: "underline"
    };
 
-   let logorReg = true;
+   let logOrReg = false;
 
    const logOrRegHandler = () => {
-
+      logOrReg = !logOrReg
+      console.log("I changed", logOrReg)
    };
    return (
       <div className={ classes.Registration }>
-         {logorReg === true
+         {logOrReg === true
             ? <div className={ classes.formBox }>
                <div className={ classes.loginReg }>
                   <div className={ classes.titles }>
-                     <h2 style={ style } onClick={ logOrRegHandler }>Login</h2>
+                     <h2 style={ style } >Login</h2>
                   </div>
-                  <div className={ classes.second }>
-                     <h2>Register</h2>
+                  <div className={ classes.second } onClick={ logOrRegHandler }>
+                     <h2 >Register</h2>
                   </div>
                </div>
                <form className={ classes.formGrid }>

@@ -1,25 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import classes from './StyledRegistrationLogin.module.css';
 
 const Registration = (props) => {
 
-
-
+   const [state, setState] = useState(true)
+   console.log("here",state)
    const style = {
       color: "rgb(0, 174, 240)",
       textDecoration: "underline"
    };
 
-   let logOrReg = false;
+   
+
+ 
 
    const logOrRegHandler = () => {
-      logOrReg = !logOrReg
-      console.log("I changed", logOrReg)
+      setState(!state) 
    };
+
+   
+
    return (
       <div className={ classes.Registration }>
-         {logOrReg === true
+         {state === true
             ? <div className={ classes.formBox }>
                <div className={ classes.loginReg }>
                   <div className={ classes.titles }>

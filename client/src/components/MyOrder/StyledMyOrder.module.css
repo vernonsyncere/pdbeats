@@ -1,0 +1,55 @@
+.MyOrder {
+  margin-top: 150px;
+}
+
+.displayBox {
+  width: 400px;
+  margin: auto;
+  min-height: 400px;
+}
+
+.checklist {
+  text-align: center;
+  border-bottom: 2px solid rgba(207, 204, 205);
+  padding-bottom: 20px;
+}
+
+.checklist img {
+  margin-bottom: 10px;
+}
+
+.order {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.checklist p span {
+  color: rgba(207, 204, 205);
+}
+
+.purchase {
+  background-color: rgb(237, 232, 234);
+  min-height: 200px;
+  padding: 0 10px 0 10px;
+}
+
+.purchaseLine {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: 2fr 1fr;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+.right {
+  justify-self: end;
+}
+
+.date {
+  font-weight: 600;
+}
+.number {
+  text-align: end;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}

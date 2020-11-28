@@ -1,0 +1,25 @@
+.MyAccount {
+margin-top: 200px;
+}
+
+.displayBox {
+   width: 400px;
+   margin: auto;
+   outline:2px solid green;
+   min-height: 400px;
+  
+}
+
+.checklist {
+   text-align: center;
+   border-bottom: 2px solid rgba(207, 204, 205);
+   padding-bottom: 20px;
+}
+
+.order {
+   font-weight: 600;
+}
+
+.checklist p span {
+   color: rgba(207, 204, 205);
+}

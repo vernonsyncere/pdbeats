@@ -4,7 +4,7 @@
 }
 
 .Registration {
-  margin-top: 175px;
+  margin-top: 250px;
 }
 
 .formBox {
@@ -80,4 +80,57 @@
   text-align: center;
   margin-top: 20px;
   color: rgb(29, 148, 195);
+}
+
+
+@media(max-width: 475px) {
+  .formBox {
+    width: 300px;
+  }
+
+  .titles {
+    font-size: 1.75rem;
+  }
+
+  .second {
+    font-size: 1.75rem;
+  }
+}
+
+@media(max-width: 310px) {
+  .formBox {
+    width: 250px;
+  }
+
+  .titles {
+    font-size: 1.5rem;
+  }
+
+  .second {
+    font-size: 1.5rem;
+  }
+
+  .formSection label {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
+
+@media(max-width: 250px) {
+  .formBox {
+    width: 200px;
+  }
+
+  .titles {
+    font-size: 1.25rem;
+  }
+
+  .second {
+    font-size: 1.25rem;
+  }
+
+  /* .formSection label {
+    font-size: 1rem;
+    font-weight: 400;
+  } */
 }

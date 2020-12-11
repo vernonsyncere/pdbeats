@@ -1,0 +1,18 @@
+.AdminDashBoard{
+   margin-top: 400px;
+}
+
+.buttonBox{
+   width: 700px;
+   margin: auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-column-gap: 30px;
+   text-align: center;
+}
+
+.buttonBox button{
+   border-radius: 50%;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}

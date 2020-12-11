@@ -57,7 +57,7 @@
     max-width: 100%;
  }
 
-button {
+.clientButton {
    max-width:100%;
    width:100%;
    padding: 5px 0;

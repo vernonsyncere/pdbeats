@@ -8,6 +8,7 @@ import BeatStore from './components/BeatStore/BeatStore';
 import Compositions from './components/Compositions/Compositions';
 import MyOrder from './components/MyOrder/MyOrder';
 import ClientProfile from './components/ClientProfile/ClientProfile';
+import AdminDashBoard from './components/AdminDashBoard/AdminDashBoard';
 
 
 
@@ -23,7 +24,8 @@ const App = (props) => {
         {/* <BeatStore/> */}
       {/* <RegistrationLogin/> */}
       {/* <MyOrder></MyOrder> */}
-      <ClientProfile></ClientProfile>
+      {/* <ClientProfile></ClientProfile> */}
+      <AdminDashBoard/>
     </div>
   );
 }

@@ -18,8 +18,9 @@
  }
 
  .formGrid {
-   /* text-align: center; */
+  
    margin-top: 30px;
+   max-width: 100%;
    
    
  }
@@ -29,11 +30,14 @@
    display: grid;
    grid-template-columns: 1fr 2.5fr;
    grid-row-gap:10px;
+   width:100%;
+   max-width: 100%;
  }
 
  .profileLabel {
     align-self: center;
-    max-width: 90%;
+    width:100%;
+    max-width: 100%;
  }
 
  .profileLabel img {
@@ -43,7 +47,9 @@
  .formBox input{
     font-size: 2rem;
     border-radius: 5px;
+    width:100%;
     max-width: 100%;
+    width:100%;
  }
 
  .imgInput {
@@ -77,11 +83,17 @@ button {
     .formBox {
       margin-top: 20px;
       display: grid;
-      grid-template-columns: 2fr 1fr;
+      grid-template-columns: 1fr 1.5fr;
     }
  }
 
- @media(max-width: 301px) {
+ @media(max-width: 401px) {
+   .displayBox {
+      width: 300px;
+    }
+ }
+
+ @media(max-width: 351px) {
    .displayBox {
       width: 200px;
     }

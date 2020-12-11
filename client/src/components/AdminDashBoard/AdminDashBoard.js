@@ -6,9 +6,9 @@ const AdminDashBoard = (props) => {
    return(
       <div className={classes.AdminDashBoard}>
          <div className={classes.buttonBox}>
-            <button>Profile Update</button>
-            <button>Compositions</button>
-            <button>Merchandise</button>
+            <a><button>Profile Update</button></a>
+            <a><button>Compositions</button></a>
+            <a><button>Merchandise</button></a>
          </div>
       </div>
    )

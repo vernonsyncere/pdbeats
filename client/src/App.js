@@ -20,8 +20,8 @@ const App = (props) => {
       <NavBar/>
         {/* <Compositions/> */}
         {/* <BeatStore/> */}
-      <RegistrationLogin/>
-      {/* <MyOrder></MyOrder> */}
+      {/* <RegistrationLogin/> */}
+      <MyOrder></MyOrder>
     </div>
   );
 }

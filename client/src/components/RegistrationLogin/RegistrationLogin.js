@@ -65,6 +65,10 @@ const Registration = (props) => {
                      <label>Password</label>
                      <input type="password" />
                   </div>
+                  <div className={ classes.formSection }>
+                     <label>Confirm</label>
+                     <input type="password" />
+                  </div>
                   <p className={ classes.disclose }>
                      Your personal data will be used to support your experience throughout this website,
                      to manage access to your account, and for other purposes described in 

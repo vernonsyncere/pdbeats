@@ -7,6 +7,7 @@ import NavBar from './components/NavBar/NavBar';
 import BeatStore from './components/BeatStore/BeatStore';
 import Compositions from './components/Compositions/Compositions';
 import MyOrder from './components/MyOrder/MyOrder';
+import ClientProfile from './components/ClientProfile/ClientProfile';
 
 
 
@@ -21,7 +22,8 @@ const App = (props) => {
         {/* <Compositions/> */}
         {/* <BeatStore/> */}
       {/* <RegistrationLogin/> */}
-      <MyOrder></MyOrder>
+      {/* <MyOrder></MyOrder> */}
+      <ClientProfile/>
     </div>
   );
 }

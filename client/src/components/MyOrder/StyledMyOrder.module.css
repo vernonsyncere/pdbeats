@@ -60,29 +60,27 @@
   justify-self: center;
 }
 
-.download, .date, .order {
+.download,
+.date,
+.order {
   place-self: center;
 }
 
-@media(max-width: 900px){
+@media (max-width: 900px) {
   .displayBox {
-    width: 600px
+    width: 600px;
   }
-
-  
 }
 
-@media(max-width: 625px){
+@media (max-width: 625px) {
   .displayBox {
-    width: 550px
+    width: 550px;
   }
-
-  
 }
 
-@media(max-width: 550px){
+@media (max-width: 550px) {
   .displayBox {
-    width: 300px
+    width: 300px;
   }
 
   .purchaseLine {
@@ -97,8 +95,6 @@
     display: none;
   }
 
-
-
   .date {
     display: none;
   }
@@ -108,30 +104,8 @@
   }
 }
 
-@media(max-width: 300px){
+@media (max-width: 300px) {
   .displayBox {
-    width: 200px
-  }
-
-  .purchaseLine {
-    display: grid;
-    margin-top: 20px;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    padding-bottom: 20px;
-  }
-
-  .headlinesTwo {
-    display: none;
-  }
-
-
-
-  .date {
-    display: none;
-  }
-
-  .order {
-    display: none;
+    width: 200px;
   }
 }

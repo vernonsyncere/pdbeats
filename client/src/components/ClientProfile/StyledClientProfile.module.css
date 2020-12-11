@@ -1,0 +1,18 @@
+.ClientProfile {
+   
+}
+
+.displayBox {
+   width: 700px;
+   margin: auto;
+   min-height: 400px;
+ }
+ .checklist {
+   text-align: center;
+   border-bottom: 2px solid rgba(207, 204, 205);
+   padding-bottom: 20px;
+ }
+ 
+ .checklist img {
+   margin-bottom: 10px;
+ }

@@ -19,11 +19,10 @@ const MyOrder = (props) => {
             <div className={ classes.purchase }>
                <div className={ classes.purchaseLine }>
                   <div className={ classes.headlines }>Product</div>
-                  <div className={ classes.headlinesTwo }>Download</div>
+                  <div className={ classes.headlines }>Download</div>
                   <div className={ classes.headlinesTwo }>Purchase Date</div>
-
-                  {/* Here would start the map through specific order */ }
-                  <div className={ classes.headlines }>Order Number</div>
+                  <div className={ classes.headlinesTwo }>Order Number</div>
+                     {/* Here would start the map through specific order */ }
                   <div className={ classes.product }> <img src={ night } /></div>
                   <div className={ classes.download }><a href="https://www.beatstars.com/ProduceDepartmentBeats/sound-kits/48260" target="_blank">The Night of</a></div>
                   <div className={ classes.date }><p>December 10th, 2020</p></div>

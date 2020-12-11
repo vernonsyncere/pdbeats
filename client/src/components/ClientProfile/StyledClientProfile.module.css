@@ -1,11 +1,11 @@
 .ClientProfile {
-   
+   margin-top: 150px;
 }
 
 .displayBox {
    width: 700px;
    margin: auto;
-   min-height: 400px;
+   /* min-height: 400px; */
  }
  .checklist {
    text-align: center;
@@ -15,4 +15,73 @@
  
  .checklist img {
    margin-bottom: 10px;
+ }
+
+ .formGrid {
+   /* text-align: center; */
+   margin-top: 30px;
+   
+   
+ }
+
+ .formBox {
+   margin-top: 20px;
+   display: grid;
+   grid-template-columns: 1fr 2.5fr;
+   grid-row-gap:10px;
+ }
+
+ .profileLabel {
+    align-self: center;
+    max-width: 90%;
+ }
+
+ .profileLabel img {
+    width: 50px;
+ }
+
+ .formBox input{
+    font-size: 2rem;
+    border-radius: 5px;
+    max-width: 100%;
+ }
+
+ .imgInput {
+    height: 37px;
+    max-width: 100%;
+ }
+
+button {
+   max-width:100%;
+   padding: 5px 0;
+   border-radius: 5px;
+   border: 0;
+   margin-top: 30px;
+   margin-bottom: 20px;
+   font-size: 1.25rem;
+   color: white;
+   background-color: rgba(0, 174, 240,.6);
+ }
+
+ @media(max-width: 701px) {
+   .displayBox {
+      width: 500px;
+    }
+ }
+
+ @media(max-width: 501px) {
+   .displayBox {
+      width: 400px;
+    }
+    .formBox {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+    }
+ }
+
+ @media(max-width: 301px) {
+   .displayBox {
+      width: 200px;
+    }
  }

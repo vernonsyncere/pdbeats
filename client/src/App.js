@@ -23,7 +23,7 @@ const App = (props) => {
         {/* <BeatStore/> */}
       {/* <RegistrationLogin/> */}
       {/* <MyOrder></MyOrder> */}
-      <ClientProfile/>
+      <ClientProfile></ClientProfile>
     </div>
   );
 }

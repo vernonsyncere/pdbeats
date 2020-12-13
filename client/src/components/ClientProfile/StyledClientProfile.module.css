@@ -1,100 +1,92 @@
 .ClientProfile {
-   margin-top: 150px;
+  margin-top: 150px;
 }
 
 .displayBox {
-   width: 700px;
-   margin: auto;
-   /* min-height: 400px; */
- }
- .checklist {
-   text-align: center;
-   border-bottom: 2px solid rgba(207, 204, 205);
-   padding-bottom: 20px;
- }
- 
- .checklist img {
-   margin-bottom: 10px;
- }
+  width: 700px;
+  margin: auto;
+  /* min-height: 400px; */
+}
+.checklist {
+  text-align: center;
+  border-bottom: 2px solid rgba(207, 204, 205);
+  padding-bottom: 20px;
+}
 
- .formGrid {
-  
-   margin-top: 30px;
-   max-width: 100%;
-   
-   
- }
+.checklist img {
+  margin-bottom: 10px;
+}
 
- .formBox {
-   margin-top: 20px;
-   display: grid;
-   grid-template-columns: 1fr 2.5fr;
-   grid-row-gap:10px;
-   width:100%;
-   max-width: 100%;
- }
+.formGrid {
+  margin-top: 30px;
+  max-width: 100%;
+}
 
- .profileLabel {
-    align-self: center;
-    width:100%;
-    max-width: 100%;
- }
+.formBox {
+  margin-top: 20px;
+  display: grid;
+  /* grid-template-columns: 1fr 2.5fr; */
+  grid-row-gap: 10px;
+  width: 100%;
+  max-width: 100%;
+}
 
- .profileLabel img {
-    width: 50px;
- }
+.profileLabel {
+  align-self: center;
+  width: 100%;
+  max-width: 100%;
+}
 
- .formBox input{
-    font-size: 2rem;
-    border-radius: 5px;
-    width:100%;
-    max-width: 100%;
-    width:100%;
- }
+.profileLabel img {
+  width: 50px;
+}
 
- .imgInput {
-    height: 37px;
-    max-width: 100%;
- }
+.formBox input {
+  font-size: 2rem;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 100%;
+  width: 100%;
+}
+
+.imgInput {
+  height: 37px;
+  max-width: 100%;
+}
 
 .clientButton {
-   max-width:100%;
-   width:100%;
-   padding: 5px 0;
-   border-radius: 5px;
-   border: 0;
-   margin-top: 30px;
-   margin-bottom: 20px;
-   font-size: 1.25rem;
-   color: white;
-   background-color: rgba(0, 174, 240,.6);
- }
+  max-width: 100%;
+  width: 100%;
+  padding: 5px 0;
+  border-radius: 5px;
+  border: 0;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 1.25rem;
+  color: white;
+  background-color: rgba(0, 174, 240, 0.6);
+}
 
- @media(max-width: 701px) {
-   .displayBox {
-      width: 500px;
-    }
- }
+@media (max-width: 701px) {
+  .displayBox {
+    width: 500px;
+  }
+}
 
- @media(max-width: 501px) {
-   .displayBox {
-      width: 400px;
-    }
-    .formBox {
-      margin-top: 20px;
-      display: grid;
-      grid-template-columns: 1fr 1.5fr;
-    }
- }
+@media (max-width: 501px) {
+  .displayBox {
+    width: 400px;
+  }
+}
 
- @media(max-width: 401px) {
-   .displayBox {
-      width: 300px;
-    }
- }
+@media (max-width: 401px) {
+  .displayBox {
+    width: 300px;
+  }
+}
 
- @media(max-width: 351px) {
-   .displayBox {
-      width: 200px;
-    }
- }
+@media (max-width: 351px) {
+  .displayBox {
+    width: 200px;
+  }
+}

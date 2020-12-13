@@ -24,8 +24,8 @@ const App = (props) => {
         {/* <BeatStore/> */}
       {/* <RegistrationLogin/> */}
       {/* <MyOrder></MyOrder> */}
-      {/* <ClientProfile></ClientProfile> */}
-      <AdminDashBoard/>
+      <ClientProfile></ClientProfile>
+      {/* <AdminDashBoard/> */}
     </div>
   );
 }

@@ -46,10 +46,10 @@ const ClientProfile = (props) => {
                      <label className={ classes.profileLabel }><img src={ spotify } /></label>
                      <input className={ classes.imgInput } type="text" />
                   </div>
-                  <div className={ classes.formBox }>
+                  {/* <div className={ classes.formBox }>
                      <label className={ classes.profileLabel }><img src={ twitter } /></label>
                      <input className={ classes.imgInput } type="text" />
-                  </div>
+                  </div> */}
                   <div className={ classes.formBox }>
                      <label className={ classes.profileLabel }><img src={ instagram } /></label>
                      <input className={ classes.imgInput } type="text" />

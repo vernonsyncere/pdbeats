@@ -20,11 +20,11 @@ const App = (props) => {
   return (
     <div className="App">
       <NavBar/>
-        {/* <Compositions/> */}
+        <Compositions/>
         {/* <BeatStore/> */}
       {/* <RegistrationLogin/> */}
       {/* <MyOrder></MyOrder> */}
-      <ClientProfile></ClientProfile>
+      {/* <ClientProfile></ClientProfile> */}
       {/* <AdminDashBoard/> */}
     </div>
   );

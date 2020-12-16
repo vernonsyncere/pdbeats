@@ -12,7 +12,7 @@ const NavBar = (props) => {
          </div>
          <div className={classes.links}>
             <div>
-               <p className={classes.center}>Compositions</p>
+               <p className={classes.center}>Produce Section</p>
             </div>
             <div>
                <p className={classes.center}>Beats</p>
